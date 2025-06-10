@@ -1,0 +1,24 @@
+name: chatgpt_voice_assistant
+description: Voice assisted layer over ChatGPT
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.4.2
+  flutter_tts: ^3.8.5
+  permission_handler: ^11.3.0
+  audioplayers: ^5.2.1
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/my_voice/
